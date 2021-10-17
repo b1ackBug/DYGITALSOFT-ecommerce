@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Hatity",
+        "description": "Accounting Assistant IV",
+        "review": 43,
+        "price": 897,
+        "discount": 20,
+        "inStock": false
+    },
+    {
+        "id": 2,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Sonair",
+        "description": "Professor",
+        "review": 23,
+        "price": 498,
+        "discount": 599,
+        "inStock": false
+    },
+    {
+        "id": 3,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Bytecard",
+        "description": "Senior Developer",
+        "review": 35,
+        "price": 440,
+        "discount": 61,
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Ventosanzap",
+        "description": "Financial Advisor",
+        "review": 4,
+        "price": 324,
+        "discount": 298,
+        "inStock": false
+    },
+    {
+        "id": 5,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Stringtough",
+        "description": "Paralegal",
+        "review": 5,
+        "price": 737,
+        "discount": 756,
+        "inStock": false
+    },
+    {
+        "id": 6,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Tampflex",
+        "description": "GIS Technical Architect",
+        "review": 6,
+        "price": 973,
+        "discount": 109,
+        "inStock": false
+    },
+    {
+        "id": 7,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Viva",
+        "description": "Teacher",
+        "review": 7,
+        "price": 683,
+        "discount": 147,
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Flexidy",
+        "description": "Help Desk Technician",
+        "review": 8,
+        "price": 237,
+        "discount": 434,
+        "inStock": false
+    },
+    {
+        "id": 9,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Kanlam",
+        "description": "Accounting Assistant I",
+        "review": 9,
+        "price": 231,
+        "discount": 487,
+        "inStock": false
+    },
+    {
+        "id": 10,
+        "img": "https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/products/product-1-245x245.jpg",
+        "name": "Tampflex",
+        "description": "Senior Developer",
+        "review": 10,
+        "price": 372,
+        "discount": 560,
+        "inStock": false
+    }
+]

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.slideshow2
+{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    h1{
+        margin-bottom: 20px;
+    }
+
+    .carousel-block
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .carousel1-item
+        {
+            background-color: white;
+            padding: 10px;
+            width: 254px;
+            margin-right: 20px;
+            box-shadow: 0px 0px 5px #cccccc;
+            overflow: hidden;
+
+            .item-img
+            {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                object-fit: contain;
+                position: relative;
+                height: 200px;
+
+                .item-icons-cart
+                {
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+
+                    i
+                    {
+                        color: #999;
+                        font-size: 16px;
+                        margin-bottom: 7px;
+                    }
+
+                    .item-icons-hidden
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        transition: .3s all ease-in;
+                        transform: translateX(40px);
+                    }
+                }
+            }
+
+            .item-content
+            {
+                position: relative;
+                span
+                {
+                    font-size: 12px;
+                    line-height: 1;
+                    color: #999;
+                    cursor: context-menu;
+                }
+                
+                h3
+                {
+                    font-weight: 400;
+                    line-height: 1.1;
+                    cursor: pointer;
+                }
+
+                .item-icons
+                {
+                    color: #999;
+                    i
+                    {
+                        color: #ffc107;
+                        margin-right: 5px;
+                    }
+                }
+
+                h2
+                {
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+
+                .item-shopping-icon
+                {
+                    position: absolute;
+                    bottom: 0;
+                    right: 5px;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 7px;
+                    border-radius: 50%;
+                    color: #999;
+                    transition: .3s all ease-in;
+
+                    .fa-shopping-cart
+                    {
+                        font-size: 16px;
+                    }
+
+                    &:hover
+                    {
+                        background-color: #2c3e50;
+                    }
+                }
+                
+            }
+
+            &:hover
+            {
+                .item-icons-hidden
+                {
+                    transform: translateX(0) !important;
+                }
+                .item-shopping-icon
+                {
+                    background-color: #e74c3c;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

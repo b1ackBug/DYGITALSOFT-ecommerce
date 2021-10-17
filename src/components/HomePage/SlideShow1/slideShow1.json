@@ -1,0 +1,5 @@
+[
+    {"id":1, "img":"https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/slides/slide-3.jpg", "name":"Hatity lorem lorem lorem","description":"Accounting Assistant IV lorem lorem ipsum dolor sit","review":1,"price":897,"discount":20,"inStock":false},
+    {"id":2, "img":"https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/slides/slide-3.jpg", "name":"Sonair lorem lorem lorem","description":"Professor lorem lorem lorem lorem","review":2,"price":498,"discount":599,"inStock":false},
+    {"id":3, "img":"https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/slides/slide-3.jpg", "name":"Bytecard lorem lorem lorem","description":"Senior Developer lorem  lorem lorem lorem","review":3,"price":440,"discount":61,"inStock":true}
+]

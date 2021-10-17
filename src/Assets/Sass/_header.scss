@@ -1,0 +1,121 @@
+.header
+{
+    max-width: 100%;
+    height: auto;
+    // align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+  
+    .head1
+    {
+        padding: 0 100px;
+        border-bottom: 1px solid rgba(129, 129, 129, 0.438);
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        ul
+        {
+            display: flex;
+            list-style: none;
+            // li
+            // {
+            //     margin-right: 10px;
+            // }
+            .head1link{
+                color: gray;
+                text-decoration: none;
+                margin: 0 10px;
+                transition: 0.3s;
+                font-weight: 400;
+            }
+            .head1link:hover{
+                color: black;
+            }
+        }
+    }
+
+    .head2
+    {
+        padding: 0 100px;
+        border-bottom: 1px solid rgba(129, 129, 129, 0.438);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .head2Search
+        {
+            display: flex;
+            justify-self: center;
+            align-items: center;
+
+            input
+            {
+                padding: 12px 10px;
+                border: none;
+                outline: none;
+                background-color: #f0f0f0;
+            }
+
+            button
+            {
+                padding: 12px 10px;
+                border: none;
+                background-color: #f0f0f0;
+            }
+
+            .searchDiv
+            {
+                padding: 12px 10px;
+                background-color: #ffc107;
+                margin-right: 5px;
+                select{
+                    background-color: #ffc107;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        .head2Add
+        {
+            padding: 0 30px;
+            display: flex;
+
+            .Heart{
+                // max-width: 50px !important;
+            }
+            .head2AddHeart
+            {
+                display: flex;
+                // max-width:  150px;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 10px;
+
+                i
+                {
+                    font-size: 30px;
+                    margin: 0 5px;
+                }
+
+                div
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    p,h6{
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}

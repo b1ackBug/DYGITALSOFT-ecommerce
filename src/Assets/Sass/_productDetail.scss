@@ -1,0 +1,55 @@
+.productDetail{
+    .container{
+        .rowmain{
+            .leftside{
+                background-color: white;
+                padding: 50px;
+                .rowproduct{
+                    .imageside{
+                        .image{
+
+                        }
+                    }
+                    .contentside{
+                        .content{
+
+                        }
+                    }
+                }
+            }
+            .rightside{
+                background-color: white;
+                padding: 50px;   
+                .aboutproduct{
+                    .instock{
+                        span{
+                            border-radius: 5px;
+                            padding: 5px;
+
+                        }
+                    }
+                   
+                }
+                .addtocart{
+                    input{
+                        width: 70px;
+                        height: 40px;
+                    }
+                    button{
+                        margin-left: 10px;
+                        width: 160px;
+                        height: 40px;
+                        background-color: red;
+                        color: white;
+                        transition: 0.3s;
+                        border: none;
+                        outline: none;
+                    }
+                    button:hover{
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
+}

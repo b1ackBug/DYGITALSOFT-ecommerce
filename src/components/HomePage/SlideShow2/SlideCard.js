@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BrowserRouter , Route, useParams, Link, NavLink } from 'react-router-dom'
 
 const SlideCard = (props) => {
     return (
@@ -15,8 +15,8 @@ const SlideCard = (props) => {
                 </div>
             </div>
             <div className="item-content">
-                <span>{props.key}</span>
-                <h3>{props.name}</h3>
+                {/* <span>{props.productId}</span> */}
+                <Link exact to={`/home/${props.productId}`}>{props.name}</Link>
                 <div className="item-icons">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>

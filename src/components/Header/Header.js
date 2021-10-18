@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import HeaderBottom from './HeaderBottom'
 import HeaderTop from './HeaderTop'
 
 
@@ -48,9 +49,10 @@ const Header = (props) => {
         </div>
       </div>
 
-      <div className="head3">
+      {/* <div className="head3">
 
-      </div>
+      </div> */}
+      <HeaderBottom homePath={props.homePath}/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import SlideCard from './SlideCard'
 import Data from './owlData.json'
+import { BrowserRouter , Route, useParams } from 'react-router-dom'
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -33,7 +34,7 @@ const SlideShow2 = () => {
 
                         {Data.map((slide) => {
                             return <SlideCard
-                                key={slide.id} img={slide.img}
+                                productId={slide.id} img={slide.img}
                                 name={slide.name} desc={slide.desc}
                                 category={slide.category} price={slide.price}
                                 review={slide.review}

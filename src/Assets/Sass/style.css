@@ -570,4 +570,44 @@
   font-weight: 500;
   color: #cb1818;
 }
+
+.productDetail .container .rowmain .leftside {
+  background-color: white;
+  padding: 50px;
+}
+
+.productDetail .container .rowmain .rightside {
+  background-color: white;
+  padding: 50px;
+}
+
+.productDetail .container .rowmain .rightside .aboutproduct .instock span {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.productDetail .container .rowmain .rightside .addtocart input {
+  width: 70px;
+  height: 40px;
+}
+
+.productDetail .container .rowmain .rightside .addtocart button {
+  margin-left: 10px;
+  width: 160px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+.productDetail .container .rowmain .rightside .addtocart button:hover {
+  background-color: black;
+}
+
+body {
+  background-color: #f7f7f7;
+}
 /*# sourceMappingURL=style.css.map */

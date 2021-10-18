@@ -15,7 +15,7 @@ const SlideShow3 = () => {
 
                         {Data.map((slide) => {
                             return <SlideCard
-                                key={slide.id} img={slide.img}
+                                productId={slide.id} img={slide.img}
                                 name={slide.name} desc={slide.desc}
                                 category={slide.category} price={slide.price}
                                 review={slide.review}
